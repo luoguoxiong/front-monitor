@@ -1,0 +1,31 @@
+{
+  "name": "front-monitor",
+  "version": "1.0.0",
+  "description": "前端监控",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server  --mode development --devtool inline-source-map --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peroluo/front-monitor.git"
+  },
+  "keywords": [
+    "front-monitor"
+  ],
+  "author": "luoguoxiong/pero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peroluo/front-monitor/issues"
+  },
+  "homepage": "https://github.com/Peroluo/front-monitor#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^8.0.8",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
