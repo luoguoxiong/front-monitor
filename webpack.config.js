@@ -5,9 +5,21 @@ const config = {
   output: {
     path: path.join(__dirname, "build"),
   },
+  module: {
+    rules: [
+      {
+        test: /\.js?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+        },
+      },
+    ],
+  },
   devServer: {
     port: 3100,
     open: true,
+    quiet: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
