@@ -22,13 +22,11 @@
   "homepage": "https://github.com/Peroluo/front-monitor#readme",
   "dependencies": {
     "html-webpack-plugin": "^4.3.0",
-    "koa": "^2.11.0",
-    "koa-body": "^4.1.1",
-    "koa-router": "^8.0.8",
     "webpack": "^4.43.0",
     "webpack-dev-server": "^3.11.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "webpack-cli": "^3.3.11"
   }
